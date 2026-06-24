@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Exam - Gallery - Damaroosri Natyakshetra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-gallery-category="grade-exam">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="Damosrii Natyalam Logo" class="logo-img">
+                    <span class="logo-text">Damaroosri Natyakshetra</span>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="../index.html#home" class="nav-link">Home</a></li>
+                    <li><a href="../index.html#about" class="nav-link">About</a></li>
+                    <li><a href="../index.html#classes" class="nav-link">Classes</a></li>
+                    <li><a href="../index.html#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="../index.html#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header spacing -->
+    <div style="height: 100px;"></div>
+
+    <section class="gallery" style="padding-top: 40px;">
+        <div class="container">
+            <!-- Category Detail Page Header -->
+            <div id="gallery-detail-header-section">
+                <div class="gallery-breadcrumbs" style="margin-bottom: 20px; font-size: 14px; color: var(--text-light);">
+                    <a href="../index.html" style="color: var(--primary-color);">Home</a> &gt; 
+                    <a href="../index.html#gallery" style="color: var(--primary-color);">Gallery</a> &gt; 
+                    <span>Grade Exam</span>
+                </div>
+                
+                <div class="gallery-back">
+                    <a href="../index.html#gallery" class="back-btn-link">
+                        <i class="fas fa-arrow-left"></i> Back to Gallery
+                    </a>
+                </div>
+                <h2 class="category-title" id="category-detail-title">Grade Exam</h2>
+                <div class="category-subtitle-row">
+                    <span class="category-subtitle-badge" id="category-detail-count">45 Photos</span>
+                </div>
+            </div>
+
+            <!-- Gallery Images View (Masonry) -->
+            <div class="gallery-images" id="gallery-images" style="display: block;">
+                <div class="images-grid" id="images-grid">
+                    <!-- Images loaded by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-prev" id="lightbox-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="lightbox-image-container">
+                <img id="lightbox-image" src="" alt="Gallery Image" class="lightbox-image">
+                <div class="lightbox-counter">
+                    <span id="current-image">1</span> / <span id="total-images">1</span>
+                </div>
+            </div>
+            <button class="lightbox-next" id="lightbox-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-brand-bar">
+            <div class="footer-brand-line"></div>
+            <p class="footer-brand-statement">Preserving the Sacred Art of <em>Bharatanatyam</em></p>
+            <div class="footer-brand-line"></div>
+        </div>
+
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-col--brand">
+                    <div class="footer-logo">
+                        <img src="../images/logo.png" alt="Logo" class="footer-logo-img">
+                        <span>Damosrii Natyalam</span>
+                    </div>
+                    <p>Preserving the rich heritage of Bharatanatyam dance through quality education, cultural excellence, and artistic passion.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html#home"><i class="fas fa-arrow-right"></i> Home</a></li>
+                        <li><a href="../index.html#about"><i class="fas fa-arrow-right"></i> About</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Classes</a></li>
+                        <li><a href="../index.html#gallery"><i class="fas fa-arrow-right"></i> Gallery</a></li>
+                        <li><a href="../index.html#achievements"><i class="fas fa-arrow-right"></i> Achievements</a></li>
+                        <li><a href="../index.html#contact"><i class="fas fa-arrow-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Our Classes</h4>
+                    <ul>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Beginner Classes</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Intermediate Training</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Advanced Training</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Arangetram Prep</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Kids Programs</a></li>
+                        <li><a href="../index.html#classes"><i class="fas fa-arrow-right"></i> Online Classes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-col--social">
+                    <h4>Follow Us</h4>
+                    <p>Stay connected for updates, performances, and cultural events.</p>
+                    <div class="footer-social">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Damosrii Natyalam. All Rights Reserved.</p>
+                <p class="footer-made-with">Made with <span class="heart">♥</span> for Classical Arts</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
